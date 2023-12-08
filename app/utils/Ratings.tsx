@@ -24,7 +24,7 @@ const Ratings:FC<Props> = ({ rating }) => {
           <BsStarHalf
             key={i}
             size={17}
-            color="#f6ba00"
+            color="#fd7e14"
             className="mr-2 cursor-pointer"
           />
         );
@@ -33,7 +33,7 @@ const Ratings:FC<Props> = ({ rating }) => {
           <AiOutlineStar
             key={i}
             size={20}
-            color="#f6ba00"
+            color="#fd7e14"
             className="mr-2 cursor-pointer"
           />
         );
