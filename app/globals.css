@@ -67,13 +67,25 @@ body {
 }
 
 .text-gradient {
-  background: linear-gradient(90deg, #ffba00 2.34%, #d6833b 100.78%);
+  background: linear-gradient(90deg, #fdaa14 2.34%, #fd7e14 100.78%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
 }
 
+.box-shadow-grow {
+  transition: box-shadow .35s ease-out,transform .15s ease-out,opacity .2s ease-out;
+  box-shadow: 0 2px 2px 0 hsla(22,96%,71%,.25), 0 3px 1px -2px hsla(22,96%,71%,.25), 0 1px 5px 0 hsla(22,96%,71%,.25);
+}
+
+.box-shadow-grow:hover{
+  background-color: #fff;
+  box-shadow: 0 8px 17px 0 rgba(253,126,20,.388), 0 6px 20px 0 rgba(253,126,20,.231);
+  -moz-box-shadow: 0 8px 17px 0 rgba(253,126,20,.388),0 6px 20px 0 rgba(253,126,20,.231);
+  -webkit-box-shadow: 0 8px 17px 0 rgba(253,126,20,.388), 0 6px 20px 0 rgba(253,126,20,.231);
+  transform: translateY(-3px);
+}
 
 @keyframes changeBackgroundColor {
 

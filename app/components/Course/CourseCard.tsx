@@ -14,7 +14,7 @@ const CourseCard: FC<Props> = ({ item, isProfile }) => {
     <Link
       href={!isProfile ? `/course/${item._id}` : `course-access/${item._id}`}
     >
-      <div className="w-full min-h-[35vh] dark:bg-slate-500 dark:bg-opacity-20 backdrop-blur border dark:border-[#ffffff1d] border-[#00000015] dark:shadow-[bg-slate-700] rounded-lg p-3 shadow-sm dark:shadow-inner">
+      <div className="w-full min-h-[35vh] box-shadow-grow  dark:bg-slate-500 dark:bg-opacity-20 backdrop-blur  rounded-lg p-3">
         <Image
           src={item.thumbnail.url}
           width={500}
@@ -24,20 +24,20 @@ const CourseCard: FC<Props> = ({ item, isProfile }) => {
           alt=""
         />
         <br />
-        <h1 className="font-Poppins text-[16px] text-black dark:text-[#fff]">
+        <h1 className="font-Poppins text-[14px] md:text-[16px] text-black dark:text-[#fff]">
           {item.name}
         </h1>
-        <div className="w-full flex items-center justify-between pt-2">
+        <div className="w-full flex flex-col md:flex-row items-center justify-between pt-2">
           <Ratings rating={item.ratings} />
           <h5
-            className={`text-black dark:text-[#fff] ${
+            className={`text-black dark:text-[#fff] text-[10px] md:text-[12px] ${
               isProfile && "hidden 800px:inline"
             }`}
           >
             {item.purchased} Students
           </h5>
         </div>
-        <div className="w-full flex items-center justify-between pt-3">
+        <div className="w-full flex flex-col-reverse md:flex-row  items-center justify-between pt-1 md:pt-3">
           <div className="flex">
             <h3 className="text-black dark:text-[#fff]">
               {item.price === 0 ? "Free" : item.price + "฿"}
@@ -47,8 +47,7 @@ const CourseCard: FC<Props> = ({ item, isProfile }) => {
             </h5>
           </div>
           <div className="flex items-center pb-3">
-            <AiOutlineUnorderedList size={20} fill="#fff" />
-            <h5 className="pl-2 text-black dark:text-[#fff]">
+            <h5 className=" text-black dark:text-[#777] text-[10px] md:text-[12px]">
               {item.courseData?.length} Lectures
             </h5>
           </div>

@@ -20,8 +20,8 @@ const EbookCard: FC<Props> = ({ item, isProfile }) => {
   }
 
   return (
-    <div className="w-full dark:bg-slate-500 bg-[#fff] dark:bg-opacity-20 backdrop-blur border dark:border-[#ffffff1d] border-[#00000015] dark:shadow-[bg-slate-700] rounded-lg shadow-sm dark:shadow-inner">
-        <div onClick={handleClick} className="w-full cursor-pointer dark:bg-slate-500 dark:bg-opacity-20 backdrop-blur border dark:border-[#ffffff1d] border-[#00000015] dark:shadow-[bg-slate-700] rounded-lg shadow-sm dark:shadow-inner">
+    <div className="w-full box-shadow-grow dark:bg-slate-500 bg-[#fff] dark:bg-opacity-20 backdrop-blur border dark:border-[#ffffff1d] border-[#00000015] dark:shadow-[bg-slate-700] rounded-lg ">
+        <div onClick={handleClick} className="w-full cursor-pointer dark:bg-slate-500 dark:bg-opacity-20 backdrop-blur dark:border-[#ffffff1d] border-[#00000015] dark:shadow-[bg-slate-700] rounded-lg ">
           <Image
             src={item.thumbnail.url}
             width={500}
@@ -35,7 +35,7 @@ const EbookCard: FC<Props> = ({ item, isProfile }) => {
           </div>
         </div>
         <br />
-        <h1 onClick={handleClick} className=" cursor-pointer font-Poppins font-bold text-center text-[16px] text-black dark:text-[#fff]">
+        <h1 onClick={handleClick} className=" cursor-pointer font-Poppins md:font-bold text-center text-[12px] md:text-[16px] text-black dark:text-[#fff]">
           {item.name}
         </h1>
         <div className="w-full flex items-center justify-center pt-3 pb-2">
