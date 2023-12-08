@@ -105,7 +105,7 @@ const Header: FC<Props> = ({ activeItem, setOpen, route, open, setRoute }) => {
                         height={80}
                         alt=""
                       />
-                      Prime School
+                      Passive Creator
                     </Link>
                   </div>
                   <div className="flex items-center">

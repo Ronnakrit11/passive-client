@@ -4,11 +4,11 @@ import Home from "./components/HomeNew/Home";
 
 export const metadata = {
   title: 'PassiveCreator สถาบันสอนภาษาอังกฤษชั้นนำ',
-  description: 'เราคือสถาบันสอนภาษาอังกฤษชั้นนำโดยครูผู้เชี่ยวชาญ',
-  keywords : 'PassiveCreator , คอร์สเรียนภาษาอังกฤษ , คอร์สอังกฤษ ม ต้น , คอร์สสอน Toeic ',
+  description: '',
+  keywords : 'PassiveCreator ,   ',
   openGraph: {
-    title: 'PassiveCreator สถาบันสอนภาษาอังกฤษชั้นนำ',
-    description: 'เราคือสถาบันสอนภาษาอังกฤษชั้นนำโดยครูผู้เชี่ยวชาญ',
+    title: 'PassiveCreator ',
+    description: '',
     url: 'https://www.passivecreator.net',
     
     siteName: 'PassiveCreator',
