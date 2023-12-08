@@ -3,15 +3,15 @@ import Home from "./components/HomeNew/Home";
 
 
 export const metadata = {
-  title: 'PrimeSchool สถาบันสอนภาษาอังกฤษชั้นนำ',
+  title: 'PassiveCreator สถาบันสอนภาษาอังกฤษชั้นนำ',
   description: 'เราคือสถาบันสอนภาษาอังกฤษชั้นนำโดยครูผู้เชี่ยวชาญ',
-  keywords : 'Primeschool , คอร์สเรียนภาษาอังกฤษ , คอร์สอังกฤษ ม ต้น , คอร์สสอน Toeic ',
+  keywords : 'PassiveCreator , คอร์สเรียนภาษาอังกฤษ , คอร์สอังกฤษ ม ต้น , คอร์สสอน Toeic ',
   openGraph: {
-    title: 'PrimeSchool สถาบันสอนภาษาอังกฤษชั้นนำ',
+    title: 'PassiveCreator สถาบันสอนภาษาอังกฤษชั้นนำ',
     description: 'เราคือสถาบันสอนภาษาอังกฤษชั้นนำโดยครูผู้เชี่ยวชาญ',
-    url: 'https://www.primeschool.online',
+    url: 'https://www.passivecreator.net',
     
-    siteName: 'PrimeSchool',
+    siteName: 'PassiveCreator',
     images: [
       {
         url: 'https://res.cloudinary.com/de6lgysk2/image/upload/v1699429761/yiu1tnlnoevnh1n55kc1.jpg',
@@ -24,7 +24,7 @@ export const metadata = {
   },
   twitter: {
     card: 'summary',
-    title: 'PrimeSchool สถาบันสอนภาษาอังกฤษชั้นนำ',
+    title: 'PassiveCreator สถาบันสอนภาษาอังกฤษชั้นนำ',
     description: 'เราคือสถาบันสอนภาษาอังกฤษชั้นนำโดยครูผู้เชี่ยวชาญกว่า 10 ปี',
     images: ['https://res.cloudinary.com/de6lgysk2/image/upload/v1699429761/yiu1tnlnoevnh1n55kc1.jpg'],
   },
