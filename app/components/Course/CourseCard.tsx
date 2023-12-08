@@ -24,25 +24,31 @@ const CourseCard: FC<Props> = ({ item, isProfile }) => {
           alt=""
         />
         <br />
-        <h1 className="font-Poppins text-[14px] md:text-[16px] text-black dark:text-[#fff]">
-          {item.name}
-        </h1>
-        <div className="w-full flex flex-col md:flex-row items-center justify-between pt-2">
+        <div className="min-h-[45px]">
+          <h1 className="font-Poppins text-[14px] font-semibold md:text-[16px] text-[#555555] dark:text-[#fff]">
+            {item.name}
+          </h1>
+        </div>
+        <div className="min-h-[50px]">
+          <p className="font-Poppins text-[12px] md:text-[14px] text-[#777] dark:text-[#fff]">
+            {item.description}
+          </p>
+        </div>
+        <div className="w-full flex flex-col md:flex-row items-center justify-between">
           <Ratings rating={item.ratings} />
           <h5
-            className={`text-black dark:text-[#fff] text-[10px] md:text-[12px] ${
-              isProfile && "hidden 800px:inline"
-            }`}
+            className={`text-black dark:text-[#fff] text-[10px] md:text-[12px] ${isProfile && "hidden 800px:inline"
+              }`}
           >
             {item.purchased} Students
           </h5>
         </div>
         <div className="w-full flex flex-col-reverse md:flex-row  items-center justify-between pt-1 md:pt-3">
           <div className="flex">
-            <h3 className="text-black dark:text-[#fff]">
+            <h3 className="text-[#dc3545] dark:text-[#fff]">
               {item.price === 0 ? "Free" : item.price + "฿"}
             </h3>
-            <h5 className="pl-3 text-[14px] mt-[-5px] line-through opacity-80 text-black dark:text-[#fff]">
+            <h5 className="pl-3 text-[14px] mt-[-5px] line-through opacity-80 text-[#777] dark:text-[#fff]">
               {item.estimatedPrice}฿
             </h5>
           </div>
