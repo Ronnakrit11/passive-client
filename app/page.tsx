@@ -14,7 +14,7 @@ export const metadata = {
     siteName: "PassiveCreator",
     images: [
       {
-        url: "https://res.cloudinary.com/de6lgysk2/image/upload/v1699429761/yiu1tnlnoevnh1n55kc1.jpg",
+        url: "https://res.cloudinary.com/doqbge8fv/image/upload/v1702374250/abmnc7044czwzwlkhsp3.jpg",
         width: 800,
         height: 600,
       },
@@ -28,7 +28,7 @@ export const metadata = {
     description:
       "แห่งเรียนรู้วิธีสร้างรายได้ในช่องทางออนไลน์ต่างๆ รวมถึงการใช้งานโปรแกรมที่เกี่ยวข้อง เพื่อสร้างรายได้แบบ passively ผ่านเว็บไซต์ PassiveCreator.xxx ด้วยวิธีการและการเรียนการสอนที่มีประสิทธิภาพจากผู้มีประสบการณ์จริง ที่จะช่วยให้คุณมีรายได้ผ่านช่องทางออนไลน์อย่างสม่ำเสมอเพื่อนำไปสู่ความมั่นคงทางด้านการงานและการเงินในอนาคต",
     images: [
-      "https://res.cloudinary.com/de6lgysk2/image/upload/v1699429761/yiu1tnlnoevnh1n55kc1.jpg",
+      "https://res.cloudinary.com/doqbge8fv/image/upload/v1702374250/abmnc7044czwzwlkhsp3.jpg",
     ],
   },
 };
