@@ -19,6 +19,7 @@ import TrustBy from "./TrustBy";
 import Ebooks from "./Ebooks";
 import FAQ from "../FAQ/FAQ";
 import { useTheme } from "next-themes";
+import Blogs from "./Blogs";
 
 
 function Home({ webInfo }: any) {
@@ -65,6 +66,7 @@ function Home({ webInfo }: any) {
             
             <Courses />
             <Ebooks/>
+            <Blogs/>
             <WhyLearnCourse />
             <FAQ/> 
             <TrustBy />

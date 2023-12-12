@@ -34,7 +34,7 @@ const BlogContent = ({ slug, blog }: Props) => {
                     />
                 </div>
                 <div className="w-full pb-[8rem]">
-                    <div className="max-w-[700px] mx-auto">
+                <div className="max-w-[700px] mx-auto p-[20px] md:p-0">
                         <h1 className="text-[32px] pt-10 font-bold">{data?.title}</h1>
                         {/* <h1 className="text-[28px]">{data?.description}</h1> */}
                         <p dangerouslySetInnerHTML={{ __html: data.content }}></p>

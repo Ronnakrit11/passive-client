@@ -37,7 +37,7 @@ const BlogCard: FC<Props> = ({ item, isProfile }) => {
         </div>
       </div>
       <br />
-      <h1 onClick={handleClick} className=" cursor-pointer font-Poppins font-bold text-center text-[16px] text-black dark:text-[#fff]">
+      <h1 onClick={handleClick} className=" cursor-pointer font-Poppins font-bold text-center p-[10px] text-[12px] md:text-[16px] text-black dark:text-[#fff]">
         {item.title}
       </h1>
       <div className="w-full flex items-center justify-center pt-3 pb-2">
