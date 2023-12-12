@@ -101,11 +101,11 @@ const Header: FC<Props> = ({ activeItem, setOpen, route, open, setRoute }) => {
                     >
                       <Image
                         src={'/bird.png'}
-                        width={60}
-                        height={80}
+                        width={70}
+                        height={70}
                         alt=""
                       />
-                      Passive Creator
+                      
                     </Link>
                   </div>
                   <div className="flex items-center">
