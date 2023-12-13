@@ -6,7 +6,7 @@ const About = () => {
     <div className="text-black dark:text-white">
       <br />
       <h1 className={`${styles.title} 800px:!text-[45px]`}>
-        What is <span className="text-gradient">PrimeSchool</span>
+        What is <span className="text-gradient">Passive Creator</span>
       </h1>
 
       <br />
