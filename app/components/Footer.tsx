@@ -16,7 +16,7 @@ const Footer = (props: Props) => {
             <ul className="space-y-4">
               <li>
                 <Link
-                  href="https://www.youtube.com/"
+                  href="https://www.youtube.com/@PassiveCreator"
                   className="text-base text-black dark:text-gray-300 dark:hover:text-white"
                 >
                   Youtube
@@ -24,35 +24,28 @@ const Footer = (props: Props) => {
               </li>
               <li>
                 <Link
-                  href="https://www.instagram.com//"
+                  href="https://www.facebook.com/ebookcourse"
                   className="text-base text-black dark:text-gray-300 dark:hover:text-white"
                 >
-                  Instagram
+                  Facebook
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="https://www.github.com/"
-                  className="text-base text-black dark:text-gray-300 dark:hover:text-white"
-                >
-                  github
-                </Link>
-              </li>
+           
             </ul>
           </div>
           <div className='flex'>
             <div>
               <h3 className="text-[20px] font-[600] text-black dark:text-white pb-3">Contact Info</h3>
               <p className="text-base text-black dark:text-gray-300 dark:hover:text-white pb-2">
-                Tel. : 091-991-6446
+                Tel. : 088-793-5141
               </p>
 
               <p className="text-base text-black dark:text-gray-300 dark:hover:text-white pb-2">
-                Email : primeschoolps@gmail.com 
+                Email : softcentri@gmail.com
               </p>
 
               <p className="text-base text-black dark:text-gray-300 dark:hover:text-white  pb-2">
-                Line Id : @primeschoolps
+                Line Id : @ebookcourse
               </p>
             </div>
           </div>
